@@ -38,7 +38,7 @@ export default function LoginForm() {
       toast.success("Logged in successfully!");
       setIsLoading(false);
       setCredentials({ username: "", password: "" });
-      await router.back();
+      await router.refresh();
     } else {
       // Handle sign-in error
       toast.error("Failed to log in!");
@@ -87,7 +87,7 @@ export default function LoginForm() {
       <div className="text-sm flex justify-between">
         <span>Don&apos;t have an account?</span>
         <Link
-          href="/auth/sign-up"
+          href="/sign-up"
           className="font-semibold text-primary hover:text-primary-hover"
         >
           Create one here!

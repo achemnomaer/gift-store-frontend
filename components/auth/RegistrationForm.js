@@ -89,8 +89,7 @@ export default function RegistrationForm() {
         });
         toast.success("Account has been created successfully!");
         setIsLoading(false);
-        router.back();
-        router.refresh();
+        await router.refresh();
       } else {
         // Registration failed, handle errors
         setIsLoading(false);
@@ -175,7 +174,7 @@ export default function RegistrationForm() {
       <div className="text-sm flex justify-between">
         <span>Already have an account?</span>
         <Link
-          href="/auth/sign-in"
+          href="/sign-in"
           className="font-semibold text-primary hover:text-primary-hover"
         >
           Sign in instead!
