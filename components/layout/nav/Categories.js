@@ -1,4 +1,5 @@
 import { useNavContext } from "@/context/NavContext";
+import { normalizeImageUrl } from "@/lib";
 import Image from "next/image";
 import Link from "next/link";
 
