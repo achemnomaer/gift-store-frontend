@@ -58,7 +58,7 @@ export default async function Navbar() {
                 </div>
 
                 {/* Search */}
-                <div className="hidden md:block w-full max-w-sm ml-auto">
+                <div className="hidden md:block w-full max-w-xs ml-auto">
                   <Search />
                 </div>
 
