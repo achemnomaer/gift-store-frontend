@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: "Gift.",
     description: "It's an ecommerce gift store intended to design for gifting.",
-    url: "https://gift-store.vercel.app/",
+    url: "https://gift-store-phi.vercel.app/",
     siteName: "Gift",
     locale: "bn_BD",
     type: "website",
